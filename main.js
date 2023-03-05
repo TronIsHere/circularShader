@@ -40,7 +40,6 @@ scene.add(mesh)
 
 const smallSphereGeometry = new THREE.SphereGeometry(0.4,32,32);
 const smallPlaneMaterial = new THREE.ShaderMaterial({
-    side:THREE.DoubleSide,
     vertexShader:VertexShader2,
     fragmentShader:FragmentShader2,
     uniforms:{
